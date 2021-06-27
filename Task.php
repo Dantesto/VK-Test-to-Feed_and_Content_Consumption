@@ -106,10 +106,3 @@ class Dungeon {
 		return $this->rooms[$this->currentRoomIndex]->getNextRooms();
 	}
 }
-
-function printArray($arr) {
-	foreach ($arr as $key=>$value) {
-		echo $key . "=>" . $value . " ";
-	}
-	echo "\n";
-}
