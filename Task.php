@@ -57,7 +57,7 @@ class Dungeon {
 	private $playerPoints;
 	
 	/*rooms = [["type"=>"monster2", "nextRoomsIndices"=>[2, 5, 1, 3]], ...]
-	numer in type of monster or chest means its type
+	number in type of monster or chest means its type: monster2 - 3rd type of monsters
 	nextRoomIndices = [topDoorIndex, leftDoorIndex, bottomDoorIndex, rightDoorIndex]
 	if the room doesn't have the door, then its index is -1*/
 	public function __construct($rooms, $entranceIndex, $exitIndex) {
