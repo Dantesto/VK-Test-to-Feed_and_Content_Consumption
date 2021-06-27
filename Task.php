@@ -13,6 +13,7 @@ class Room {
 		return new Room($room->getNextRooms());
 	}
 	
+	//returns number of points for visiting the room
 	public function interact() {
 		return 0;
 	}
